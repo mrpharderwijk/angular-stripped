@@ -4,7 +4,7 @@
 	/**
 	 *	Define all modules that the app uses
 	 */
-  angular.module('[appname]', [
+  angular.module('webdesignn', [
     'ngRoute',
     'ngResource',
 

@@ -4,11 +4,11 @@
   /**
    *  This config determines all routes of the app
    */
-  angular.module('[appname]')
+  angular.module('webdesignn')
     .config(['$routeProvider', '$locationProvider', 'VIEWS_URL', function($routeProvider, $locationProvider, VIEWS_URL ) {
       $routeProvider.when('/', {
-        templateUrl : VIEWS_URL + 'shared/content/contentHomeView.html',
-        controller: 'contentController'
+        templateUrl : VIEWS_URL + '/shared/home/homeView.html',
+        controller: 'homeController'
       });
 
       $routeProvider.otherwise({
