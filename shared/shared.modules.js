@@ -5,7 +5,7 @@
 	 *	Define all shared modules
 	 */
 	angular.module('app.shared', [
-		'homeModule' 
+		'homeModule'
 	]);
 
 })();
